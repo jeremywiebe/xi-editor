@@ -194,6 +194,7 @@ pub enum Error {
     RpcError(xi_rpc::Error),
     WrongReturnType,
     BadRequest,
+    PeerDisconnect,
     // Just used in tests
     Other(String),
 }
